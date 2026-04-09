@@ -16,26 +16,26 @@ const HomeScreen = ({ navigation }) => {
         <MenuCard 
           icon="📦" 
           title="Ürünler" 
-          onPress={() => navigation.navigate('ProductScreen')} 
+          onPress={() => navigation.navigate('Ürünler')} 
         />
         <MenuCard 
           icon="📁" 
           title="Kategoriler" 
-          onPress={() => navigation.navigate('CategoryScreen')} 
+          onPress={() => navigation.navigate('Kategoriler')} 
         />
      </View>
            
          
     <View style={styles.row}>
-               <MenuCard 
+        <MenuCard 
           icon="📧" 
           title="E-Posta Ayarları" 
-          onPress={() => navigation.navigate('EmailSettingsScreen')} 
+          onPress={() => navigation.navigate('E-Posta Ayarları')} 
         />
         <MenuCard 
           icon="➡️📧" 
           title=" Gönderilen E-Postalar " 
-          onPress={() => navigation.navigate('EmailSettingsScreen')} 
+          onPress={() => navigation.navigate('Gönderilen E-Postalar')} 
         />
     </View>
            
@@ -43,12 +43,12 @@ const HomeScreen = ({ navigation }) => {
         <MenuCard 
           icon="📊" 
           title="Stok İşlemleri" 
-          onPress={() => navigation.navigate('StockScreen')} 
+          onPress={() => navigation.navigate('Stok İşlemleri')} 
         />
         <MenuCard 
           icon="🤝" 
           title="Tedarikçiler" 
-          onPress={() => navigation.navigate('SuppliersScreen')} 
+          onPress={() => navigation.navigate('Tedarikçiler')} 
         />
     </View>
             
@@ -56,7 +56,7 @@ const HomeScreen = ({ navigation }) => {
         <MenuCard 
           icon="👥" 
           title="Kullanıcılar" 
-          onPress={() => navigation.navigate('UsersScreen')} 
+          onPress={() => navigation.navigate('Kullanıcılar')} 
         />
     </View>
           

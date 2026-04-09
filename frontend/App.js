@@ -1,4 +1,6 @@
+import { Provider as PaperProvider } from 'react-native-paper';
 import React from 'react';
+
 import { TouchableOpacity, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -8,6 +10,8 @@ import LoginScreen from './src/screens/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import CategoryScreen from './src/screens/CategoryScreen';
 import SupplierScreen from './src/screens/SupplierScreen';
+import ProductScreen from './src/screens/ProductScreen';
+import UserScreen from './src/screens/UserScreen';
 
 const stack = createStackNavigator();
 const Drawer= createDrawerNavigator();
@@ -53,14 +57,24 @@ const Drawer= createDrawerNavigator();
     ),
   })} 
 />
+
+      <Drawer.Screen name="Ürünler" component={ProductScreen}
+      options={({navigation})=>
+      ({title:'Ürünler',
+        headerLeft:()=>(
+          <TouchableOpacity onPress={()=>navigation.openDrawer()}
+          style={{marginLeft:15}}>
+           <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>  
+          </TouchableOpacity>
+        ),
+      })}/>
       <Drawer.Screen name="Kategoriler" component={CategoryScreen}
        options={({ navigation }) => ({ 
     title: 'Kategoriler',
     headerLeft: () => (
       <TouchableOpacity 
         onPress={() => navigation.openDrawer()} // Menüyü açar
-        style={{ marginLeft: 15 }}
-      >
+        style={{ marginLeft: 15 }}>
         
         <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>
       </TouchableOpacity>
@@ -68,6 +82,22 @@ const Drawer= createDrawerNavigator();
   })} >
         
       </Drawer.Screen>
+      <Drawer.Screen name="Kullanıcılar" component={UserScreen}
+       options={({ navigation }) => ({ 
+    title: 'Kullanıcılar',
+    headerLeft: () => (
+      <TouchableOpacity 
+        onPress={() => navigation.openDrawer()} // Menüyü açar
+        style={{ marginLeft: 15 }}>
+        <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>
+      </TouchableOpacity>
+    ),
+  })} >
+        
+      </Drawer.Screen>
+      
+
+      
       <Drawer.Screen name="Tedarikçiler" component={SupplierScreen}></Drawer.Screen>
     </Drawer.Navigator>
   )

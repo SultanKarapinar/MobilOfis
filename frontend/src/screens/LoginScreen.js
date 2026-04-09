@@ -22,12 +22,13 @@ const LoginScreen = ({navigation}) => {
   };
 
   return (
+    
     <KeyboardAvoidingView 
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
-    >{/*klavye acıldıgında içeriklerin yukarı kaymasını saglar  */}
+    >{/*klavye acıldıgına içeriklerin yukarı kaymasını saglar  */}
       <View style={styles.innerContainer}>
-        {/* Logo Alanı (Opsiyonel) */}
+
         <Text style={styles.logoText}>Merkez Ofisim</Text>
         <Text style={styles.subTitle}>"Tüm Ürünler Tek Merkez ' de"</Text>
 
@@ -38,8 +39,7 @@ const LoginScreen = ({navigation}) => {
             value={kullanıcıAdı}
             autoFocus={true}
             onChangeText={setKullanıcıAdı}
-            // keyboardType="email-address"
-            autoCapitalize="none"
+            autoCapitalize="none"// yazdıgın gıbı duzeltme yapmaz 
           />
           
           <TextInput
