@@ -3,6 +3,6 @@
   "compilerOptions": {
     "types": ["jest"]
   },
-  "include": ["**/*.ts", "**/*.tsx", "src/components/ProductCard.js", "src/screens/SupplierScreen.js", "src/screens/StockDetailScreen.js", "src/screens/ProfileScreen.js", "src/screens/HomeScreen.js", "src/screens/CategoryScreen.js", "src/screens/AuthScreen.js", "App.js"],
+  "include": ["**/*.ts", "**/*.tsx", "src/components/ProductCard.js", "src/screens/SupplierScreen.js", "src/screens/StockTransactionScreen.js", "src/screens/ProfileScreen.js", "src/screens/HomeScreen.js", "src/screens/CategoryScreen.js", "src/screens/AuthScreen.js", "App.js"],
   "exclude": ["**/node_modules", "**/Pods"]
 }

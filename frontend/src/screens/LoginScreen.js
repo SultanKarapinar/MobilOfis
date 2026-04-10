@@ -1,64 +1,95 @@
 import React, { useState } from 'react';
+import { View, StyleSheet, KeyboardAvoidingView, Platform, ScrollView, Dimensions ,TouchableOpacity } from 'react-native';
+// React Native Paper bileşenlerini kullanacağız (Daha profesyonel inputlar için)
+import { TextInput, Button, Text, Surface } from 'react-native-paper'; 
 
-import { 
-  StyleSheet, 
-  Text, 
-  View, 
-  TextInput, 
-  TouchableOpacity, 
-  KeyboardAvoidingView, 
-  Platform,
-  Image
-} from 'react-native';
 
-const LoginScreen = ({navigation}) => {
-  const [kullanıcıAdı, setKullanıcıAdı] = useState('');
+const { width } = Dimensions.get('window');
+
+const LoginScreen = ({ navigation }) => {
+
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [secureTextEntry, setSecureTextEntry] = useState(true); // Şifre gizleme
 
   const handleLogin = () => {
-    navigation.navigate('Main')
-   // console.log("Giriş denemesi:", email, password);
-    // Buraya ileride C# API bağlantısını (Axios) ekleyeceğiz.
+
+    navigation.navigate('Main');
   };
 
   return (
-    
-    <KeyboardAvoidingView 
+    <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
-    >{/*klavye acıldıgına içeriklerin yukarı kaymasını saglar  */}
-      <View style={styles.innerContainer}>
-
-        <Text style={styles.logoText}>Merkez Ofisim</Text>
-        <Text style={styles.subTitle}>"Tüm Ürünler Tek Merkez ' de"</Text>
-
-        <View style={styles.inputContainer}>
-          <TextInput
-            style={styles.input}
-            placeholder="Kullanıcı Adı"
-            value={kullanıcıAdı}
-            autoFocus={true}
-            onChangeText={setKullanıcıAdı}
-            autoCapitalize="none"// yazdıgın gıbı duzeltme yapmaz 
-          />
+    >
+      <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
+      
+        <Surface style={styles.loginCard} elevation={0}>
           
-          <TextInput
-            style={styles.input}
-            placeholder="Şifre"
-            value={password}
-            onChangeText={setPassword}
-            secureTextEntry // Şifreyi yıldızlı gösterir
-          />
-        </View>
+        
+          <View style={styles.header}>
+            <Text style={styles.logotext}>🕸️ Merkez Ofisim </Text>
+            <Text style={styles.minText}>Tüm Ürünler Tek Merkez ` de</Text>
+          </View>
 
-        <TouchableOpacity style={styles.button} onPress={handleLogin}>
-          <Text style={styles.buttonText}>Giriş Yap</Text>
-        </TouchableOpacity>
+      
+          <View style={styles.form}>
+           
+            <TextInput
+              label="Username"
+              value={username}
+              onChangeText={setUsername}
+              mode="flat" alttan çizgili
+              style={styles.input}
+              activeUnderlineColor="#000" // aktifken çizgi siyah olsun
+              underlineColor="#a19a9a" // Normalde gri
+              left={<TextInput.Icon icon="account-outline" color="#000" />} // kullanıcı ikonu
+            />
 
-        <TouchableOpacity style={styles.forgotPassword}>
-          <Text style={styles.forgotText}>Şifremi Unuttum</Text>
-        </TouchableOpacity>
-      </View>
+            <TextInput
+              label="Password"
+              value={password}
+              onChangeText={setPassword}
+              mode="flat"
+              style={styles.input}
+              activeUnderlineColor="#000"
+              underlineColor="#a19a9a"
+              secureTextEntry={secureTextEntry} // Şifreyi göster
+              left={<TextInput.Icon icon="lock-outline" color="#000" />} // kilit ikonu
+              // sağ tarafa şifre gizle ikonu 
+              right={
+                <TextInput.Icon 
+                  icon={secureTextEntry ? "eye-off-outline" : "eye-outline"} 
+                  onPress={() => setSecureTextEntry(!secureTextEntry)} 
+                  color="#666"
+                />
+              }
+            />
+
+            {/*logın button */}
+            <Button
+              mode="contained"
+              onPress={handleLogin}
+              style={styles.loginButton}
+              labelStyle={styles.loginButtonText}
+              buttonColor="#000" 
+            >
+              LOGIN
+            </Button>
+          </View>
+
+          
+          <View style={styles.footerLinks}>
+            <TouchableOpacity>
+            <Text style={styles.linkText} onPress={() => console.log('Forgot Password')}>
+              Forgot your password?
+            </Text>
+            </TouchableOpacity>
+          
+          </View>
+  
+        </Surface>
+      </ScrollView>
     </KeyboardAvoidingView>
   );
 };
@@ -66,57 +97,66 @@ const LoginScreen = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#cfe0bb',
-   
+    backgroundColor: '#cfe0bb', // arka plan
   },
-  innerContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingHorizontal: 30,
+  scrollContainer: {
+    flexGrow: 1,
+    justifyContent: 'center', // İçeriği dikeyde ortala
+    padding: 20,
+    minHeight: 100,
   },
-  logoText: {
-    fontSize: 32,
+  loginCard: {
+    backgroundColor:'#cfe0bb',
+    padding: 20,
+    alignItems: 'center',
+    width: '100%',
+  },
+  header: {
+    marginBottom: 60, // Form ile başlık arasına boşluk
+  },
+  logotext: {
+    fontSize: 28,
     fontWeight: 'bold',
-    color: '#474d55',
-    textAlign: 'center',
+    color: '#000',
+    letterSpacing: 1.5, // Harf arası boşluk kurumsal gösterir
   },
-  subTitle: {
-    fontSize: 16,
-    color: '#68745c',
-    textAlign: 'center',
-    marginBottom: 40,
+  minText:{
+    fontsize:22,
+    marginLeft:40,
   },
-  inputContainer: {
-    marginBottom: 20,
+  form: {
+    width: '100%',
+    alignItems: 'center',
   },
   input: {
-    backgroundColor: '#f5f5f5',
-    paddingHorizontal: 15,
-    paddingVertical: 12,
-    borderRadius: 10,
-    marginBottom: 15,
-    borderWidth: 1,
-    borderColor: '#ddd',
+    width: '100%',
+    backgroundColor: '#cfe0bb', // Arka planla aynı olsun
+    marginBottom: 20,
+    fontSize: 16,
   },
-  button: {
-    backgroundColor: '#5b8168',
-    paddingVertical: 15,
-    borderRadius: 10,
-    alignItems: 'center',
-    elevation: 2,
+  loginButton: {
+    marginTop: 30,
+    width:100, // Biraz daha dar ve dikdörtgen
+    borderRadius: 8, 
+    height: 50,
+    justifyContent: 'center',
   },
-  buttonText: {
+  loginButtonText: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 'bold',
+    letterSpacing: 1,
   },
-  forgotPassword: {
-    marginTop: 20,
-    alignItems: 'center',
+  footerLinks: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    width: '100%',
+    marginTop: 60,
   },
-  forgotText: {
-    color: '#e90909',
-    fontWeight: '600',
+  linkText: {
+    fontSize: 12,
+    color: '#666',
+    fontWeight: '500',
   },
 });
 

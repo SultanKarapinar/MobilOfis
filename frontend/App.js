@@ -5,6 +5,7 @@ import { TouchableOpacity, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import LoginScreen from './src/screens/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
@@ -12,9 +13,30 @@ import CategoryScreen from './src/screens/CategoryScreen';
 import SupplierScreen from './src/screens/SupplierScreen';
 import ProductScreen from './src/screens/ProductScreen';
 import UserScreen from './src/screens/UserScreen';
+import StockTransactionScreen from './src/screens/StockTransactionScreen';
+import EmailNotificationSettingScreen from './src/screens/EmailNotificationSettingScreen';
+import EmailNotificationSentScreen from './src/screens/EmailNotificationSentScreen';
+
+
 
 const stack = createStackNavigator();
 const Drawer= createDrawerNavigator();
+
+const Hamburger = ({ navigation }) => (
+  <TouchableOpacity 
+    onPress={() => navigation.openDrawer()}
+    style={{ marginLeft: 15 }}
+  >
+    <Text style={{ 
+      color: 'white', 
+      fontSize: 24, 
+      fontWeight: 'bold',
+      marginRight: 5 
+    }}>
+      ☰
+    </Text>
+  </TouchableOpacity>
+);
 
  function MyDrawer(){
   return(
@@ -41,64 +63,80 @@ const Drawer= createDrawerNavigator();
     
   }}
 >
-      <Drawer.Screen 
+  <Drawer.Screen 
   name="Ana Sayfa" 
   component={HomeScreen} 
-  options={({ navigation }) => ({ // navigation objesini buradan alıyoruz
+  options={({ navigation }) => ({
+    headerShown: true, 
     title: 'Ana Sayfa',
-    headerLeft: () => (
-      <TouchableOpacity 
-        onPress={() => navigation.openDrawer()} // Menüyü açar
-        style={{ marginLeft: 15 }}
-      >
-       
-        <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>
-      </TouchableOpacity>
-    ),
+     headerLeft: () => <Hamburger navigation={navigation} />,
   })} 
 />
 
-      <Drawer.Screen name="Ürünler" component={ProductScreen}
+  <Drawer.Screen name="Ürünler" component={ProductScreen}
       options={({navigation})=>
       ({title:'Ürünler',
-        headerLeft:()=>(
-          <TouchableOpacity onPress={()=>navigation.openDrawer()}
-          style={{marginLeft:15}}>
-           <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>  
-          </TouchableOpacity>
-        ),
-      })}/>
-      <Drawer.Screen name="Kategoriler" component={CategoryScreen}
-       options={({ navigation }) => ({ 
-    title: 'Kategoriler',
-    headerLeft: () => (
-      <TouchableOpacity 
-        onPress={() => navigation.openDrawer()} // Menüyü açar
-        style={{ marginLeft: 15 }}>
-        
-        <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>
-      </TouchableOpacity>
+        drawerIcon: ({ color, size }) => (
+      <Icon name="package-variant-closed" color={color} size={size} />
     ),
-  })} >
-        
-      </Drawer.Screen>
+        headerLeft:()=><Hamburger navigation={navigation} />,
+  })}
+  />
+  <Drawer.Screen name="Kategoriler" component={CategoryScreen}
+       options={({ navigation }) => ({ 
+    title: 'Kategoriler',  drawerIcon: ({ color, size }) => (
+      <Icon name="format-list-bulleted" color={color} size={size} />
+    ),
+    headerLeft: () => <Hamburger navigation={navigation} />,
+  })} />
+    
+
+          <Drawer.Screen name="E-Posta Ayarları" component={EmailNotificationSettingScreen}
+       options={({ navigation }) => ({ 
+    title: 'E-Posta Ayarları',
+    drawerIcon: ({ color, size }) => (
+      <Icon name="email-edit-outline" color={color} size={size} />
+    ),
+    headerLeft: () =><Hamburger navigation={navigation} />,
+  })} />
+       <Drawer.Screen name="Gönderilen E-Postalar" component={EmailNotificationSentScreen}
+       options={({ navigation }) => ({ 
+    title: 'Gönderilen E-Postalar',  drawerIcon: ({ color, size }) => (
+      <Icon name="email-check-outline" color={color} size={size} />
+    ),
+    headerLeft: () =><Hamburger navigation={navigation} />,
+  })} />  
+   
+   <Drawer.Screen name="Stok İşlemleri" component={StockTransactionScreen}
+      options={({navigation})=>
+      ({
+        title:'Stok İşlemleri',  drawerIcon: ({ color, size }) => (
+      <Icon name="swap-vertical" color={color} size={size} />
+    ),
+        headerLeft:()=><Hamburger navigation ={navigation}/>
+      })}/> 
+
+      <Drawer.Screen name="Tedarikçiler" component={SupplierScreen}
+      options={({navigation})=>
+      ({
+        title:'Tedarikçiler',  drawerIcon: ({ color, size }) => (
+      <Icon name="truck-delivery-outline" color={color} size={size} />
+    ),
+        headerLeft:()=><Hamburger navigation ={navigation}/>
+      })}/> 
+    
       <Drawer.Screen name="Kullanıcılar" component={UserScreen}
        options={({ navigation }) => ({ 
     title: 'Kullanıcılar',
-    headerLeft: () => (
-      <TouchableOpacity 
-        onPress={() => navigation.openDrawer()} // Menüyü açar
-        style={{ marginLeft: 15 }}>
-        <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold',marginRight:5, }}>☰</Text>
-      </TouchableOpacity>
+    drawerIcon: ({ color, size }) => (
+      <Icon name="account-group-outline" color={color} size={size} />
     ),
-  })} >
+    headerLeft: () =><Hamburger navigation={navigation} />,
+  })} />
         
-      </Drawer.Screen>
       
 
-      
-      <Drawer.Screen name="Tedarikçiler" component={SupplierScreen}></Drawer.Screen>
+     
     </Drawer.Navigator>
   )
  }

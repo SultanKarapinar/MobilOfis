@@ -8,13 +8,10 @@ const ProductScreen =()=>
     const [page,setPage]=useState(0);
     const itemsPerPage=5;
 
-    const products=[
-        {id:1,name:'çay',category:'mutfak',CurrentStock:2 ,ReorderLevel:1,CreatedDate:111},
-       
-    ];
+  const products=[ {id:1,name:'çay',category:'mutfak',CurrentStock:2 ,ReorderLevel:1,CreatedDate:111}, ];
     
-    const from =page*itemsPerPage;
-    const to=Math.min ((page+1)* itemsPerPage, products.length) 
+    const from =page*itemsPerPage;//kacıncı urunde basladıhını bulmak
+    const to=Math.min ((page+1)* itemsPerPage, products.length) //bitecegi indeks min ile tasmayı engelle
     return(
         <ScrollView style={styles.container}>
           
@@ -28,23 +25,23 @@ const ProductScreen =()=>
                     <DataTable.Title>Min Stok Seviyesi</DataTable.Title>
                     <DataTable.Title>Oluşturulma Tarihi</DataTable.Title>
                     <DataTable.Title>Güncelleme Tarihi</DataTable.Title>
-                     </DataTable.Header>
+                    </DataTable.Header>
                      {products.map((item)=>
                       <DataTable.Row key={item.id}>
                         <DataTable.Cell>{item.id}</DataTable.Cell>
-                        <DataTable.Title>{item.name}</DataTable.Title>
-                        <DataTable.Title>{item.category}</DataTable.Title>
-                        <DataTable.Title>{item.CurrentStock}</DataTable.Title>
-                        <DataTable.Title>{item.ReorderLevel}</DataTable.Title>
-                        <DataTable.Title>{item.CreatedDate}</DataTable.Title>
-                        <DataTable.Title>{item.UpdatedDate}</DataTable.Title>
+                        <DataTable.Cell>{item.name}</DataTable.Cell>
+                        <DataTable.Cell>{item.category}</DataTable.Cell>
+                        <DataTable.Cell>{item.CurrentStock}</DataTable.Cell>
+                        <DataTable.Cell>{item.ReorderLevel}</DataTable.Cell>
+                        <DataTable.Cell>{item.CreatedDate}</DataTable.Cell>
+                        <DataTable.Cell>{item.UpdatedDate}</DataTable.Cell>
                         
                         
-                      </DataTable.Row>
+                    </DataTable.Row>
                     )}
                     <DataTable.Pagination
                     page={page}
-                    numberOfPages={Math.ceil(products.length/itemsPerPage)}
+                    numberOfPages={Math.ceil(products.length/itemsPerPage)}//yukarı yuvarlam
                     onPageChange={(page)=>setPage(page)}
                     label={`${from + 1}-${to} / ${products.length}`}
                     numberOfItemsPerPage={itemsPerPage}
