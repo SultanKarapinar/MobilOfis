@@ -39,7 +39,7 @@ const LoginScreen = ({ navigation }) => {
               label="Username"
               value={username}
               onChangeText={setUsername}
-              mode="flat" alttan çizgili
+              mode="flat" //alttan çizgili
               style={styles.input}
               activeUnderlineColor="#000" // aktifken çizgi siyah olsun
               underlineColor="#a19a9a" // Normalde gri
