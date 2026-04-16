@@ -14,7 +14,7 @@ const MenuCard =({icon,title,onPress})=>{
 };
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#cfe0bb',
+    backgroundColor: '#e9f3de',
     flex: 1,
     height: 130,
     margin: 8,
@@ -34,7 +34,8 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#333',
+   
+    //color: '#070707',
   },
 });
 export default MenuCard;

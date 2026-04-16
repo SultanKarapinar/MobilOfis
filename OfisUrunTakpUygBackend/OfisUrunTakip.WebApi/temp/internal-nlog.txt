@@ -1,0 +1,225 @@
+2026-02-10 15:07:29.8146 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-10 15:07:29.8311 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-10 15:07:29.8862 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-10 15:16:05.6302 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-10 15:16:05.6652 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-10 15:16:05.7937 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-11 10:16:23.1164 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-11 10:16:23.1346 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-11 10:16:23.2164 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-11 12:59:39.5569 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-11 12:59:39.5800 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-11 12:59:39.6652 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-11 13:50:03.8323 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-11 13:50:03.8594 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-11 13:50:03.9541 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-11 15:45:26.0919 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-11 15:45:26.1058 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-11 15:45:26.1679 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-11 16:04:48.8786 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-11 16:04:48.8946 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-11 16:04:48.9704 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-12 09:50:13.0247 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-12 09:50:13.0426 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-12 09:50:13.1366 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-12 13:54:48.4586 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-12 13:54:48.4792 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-12 13:54:48.5456 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-12 14:36:18.1681 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-12 14:36:18.1925 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-12 14:36:18.2812 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 10:04:48.6550 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 10:04:48.6749 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 10:04:48.7744 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 10:35:57.1961 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 10:35:57.2252 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 10:35:57.3712 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 11:15:20.2036 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 11:15:20.2245 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 11:15:20.2900 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 13:02:01.7859 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 13:02:01.8091 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 13:02:01.8957 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+<<<<<<< HEAD
+2026-02-13 16:30:07.1270 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 16:30:07.1450 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 16:30:07.2136 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 17:04:43.4231 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 17:04:43.4407 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 17:04:43.5160 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+=======
+2026-02-13 15:12:05.5049 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 15:12:05.5188 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 15:12:05.5807 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 15:23:36.8891 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 15:23:36.9207 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 15:23:36.9964 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 15:26:35.9022 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 15:26:35.9177 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 15:26:35.9686 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 15:37:51.0936 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 15:37:51.1058 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 15:37:51.2218 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-13 15:48:14.4629 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-13 15:48:14.5213 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-13 15:48:14.6566 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+<<<<<<< HEAD
+2026-02-16 10:34:56.3122 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 10:34:56.3330 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 10:34:56.4250 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 10:54:55.8298 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 10:54:55.8831 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 10:54:55.9856 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 11:00:22.2981 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 11:00:22.3187 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 11:00:22.5327 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 11:31:14.3161 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 11:31:14.3364 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 11:31:14.4261 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 11:48:32.1386 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 11:48:32.1586 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 11:48:32.2536 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 13:38:03.2535 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 13:38:03.2809 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 13:38:03.3726 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+=======
+>>>>>>> 922e5b2626a3afa5228d0c0e621c70bdeae32f80
+<<<<<<< HEAD
+>>>>>>> 2cd78df133bb333d77a04b012046c9986173faa5
+=======
+2026-02-16 13:52:34.0877 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 13:52:34.1029 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 13:52:34.1729 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-16 14:07:59.2298 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 14:07:59.2516 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 14:07:59.3439 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+>>>>>>> 4e78772030db6910f2a19473a6d4f9ce879e5128
+2026-02-16 16:06:49.3550 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-16 16:06:49.3906 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-16 16:06:49.5142 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-17 13:35:11.4333 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-17 13:35:11.4705 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-17 13:35:11.5370 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-17 14:06:45.3982 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-17 14:06:45.4233 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-17 14:06:45.4930 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-17 14:13:25.7940 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-17 14:13:25.8095 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-17 14:13:25.8776 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-17 14:59:50.8861 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-17 14:59:50.9065 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-17 14:59:50.9765 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-17 15:54:38.7627 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-17 15:54:38.7936 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-17 15:54:39.0431 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:14:12.5619 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:14:12.5840 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:14:12.6870 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:44:52.9150 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:44:52.9363 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:44:52.9840 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:44:53.2145 Info LogFactory shutting down ...
+2026-02-19 09:44:53.2145 Info Closing old configuration.
+2026-02-19 09:44:53.2251 Info LogFactory shutdown completed.
+2026-02-19 09:45:20.0551 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:45:20.0825 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:45:20.1265 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:45:20.3086 Info LogFactory shutting down ...
+2026-02-19 09:45:20.3086 Info Closing old configuration.
+2026-02-19 09:45:20.3086 Info LogFactory shutdown completed.
+2026-02-19 09:52:48.9196 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:52:48.9196 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:52:48.9686 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:52:49.1544 Info LogFactory shutting down ...
+2026-02-19 09:52:49.1544 Info Closing old configuration.
+2026-02-19 09:52:49.1544 Info LogFactory shutdown completed.
+2026-02-19 09:53:03.8539 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:53:03.8705 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:53:03.9393 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 09:54:35.1098 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 09:54:35.1276 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 09:54:35.1886 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:05:04.9800 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:05:05.0133 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:05:05.1203 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:22:30.4473 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:22:30.4647 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:22:30.5276 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:29:55.3801 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:29:55.3943 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:29:55.4288 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:29:55.6056 Info LogFactory shutting down ...
+2026-02-19 10:29:55.6056 Info Closing old configuration.
+2026-02-19 10:29:55.6158 Info LogFactory shutdown completed.
+2026-02-19 10:30:16.5466 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:30:16.5727 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:30:16.6047 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:30:16.7821 Info LogFactory shutting down ...
+2026-02-19 10:30:16.7821 Info Closing old configuration.
+2026-02-19 10:30:16.7821 Info LogFactory shutdown completed.
+2026-02-19 10:30:26.3838 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:30:26.4016 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:30:26.4747 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 10:45:01.1032 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 10:45:01.1206 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 10:45:01.1848 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-19 11:46:07.4126 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-19 11:46:07.4329 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-19 11:46:07.5363 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-20 15:29:22.5454 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-20 15:29:22.5744 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-20 15:29:22.6919 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-23 09:38:28.3604 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-23 09:38:28.3829 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-23 09:38:28.6490 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-24 11:15:25.4587 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-24 11:15:25.4921 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-24 11:15:25.6076 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-25 10:32:07.6044 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-25 10:32:07.6321 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-25 10:32:07.7054 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\msı\Desktop\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-02-26 09:53:52.9074 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-02-26 09:53:52.9225 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-02-26 09:53:52.9995 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 13:13:58.1911 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 13:13:58.2280 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 13:13:58.8398 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 13:34:05.9128 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 13:34:05.9535 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 13:34:06.3062 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:05:46.6459 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:05:46.7665 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:05:47.0972 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:08:34.5755 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:08:34.6252 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:08:34.8035 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:12:55.0747 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:12:55.1201 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:12:55.3335 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:19:01.2708 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:19:01.2951 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:19:01.3567 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:20:53.1119 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:20:53.1328 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:20:53.2237 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:21:41.0811 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:21:41.1073 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:21:41.2069 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:22:32.6664 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:22:32.7627 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:22:33.0208 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:22:48.9215 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:22:48.9527 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:22:49.1602 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:23:43.7280 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:23:43.8491 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:23:44.0704 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:25:10.3864 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:25:10.4144 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:25:10.5324 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:25:51.9193 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:25:51.9464 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:25:52.0641 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config
+2026-04-15 14:37:09.0949 Info Registered target NLog.Targets.FileTarget(Name=dosya)
+2026-04-15 14:37:09.1304 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2026-04-15 14:37:09.2417 Info Configuration initialized: TargetNames=dosya, ConfigItems=20, AutoReload=true, FilePath=C:\Users\Merkez\source\repos\OfisUrunTakip\OfisUrunTakpUygBackend\OfisUrunTakip.WebApi\bin\Debug\net8.0\nlog.config

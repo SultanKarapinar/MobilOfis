@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Data",
+    "\\DTO",
+    "\\OfisUrunTakip.WebApi",
+    "\\OfisUrunTakip.WebApi\\Services"
+  ],
+  "SelectedNode": "\\OfisUrunTakip.WebApi\\Services\\EmailReportService.cs",
+  "PreviewInSolutionExplorer": false
+}

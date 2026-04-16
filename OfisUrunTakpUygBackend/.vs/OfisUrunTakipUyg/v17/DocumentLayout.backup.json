@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|solutionrelative:data\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\services\\emailreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\services\\emailreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\controllers\\stocktransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\controllers\\stocktransactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\stocktransactiondtos\\stocktransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\stocktransactiondtos\\stocktransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\stocktransactiondtos\\stocktransactionlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\stocktransactiondtos\\stocktransactionlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\stocktransactiondtos\\stocktransactionadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\stocktransactiondtos\\stocktransactionadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\productdtos\\productlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\productdtos\\productlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\dto\\productdtos\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C750A309-D2EB-4AAE-ABFA-C907EB01BF71}|DTO\\DTO.csproj|solutionrelative:dto\\productdtos\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BEAD052-EB07-4E32-8C18-63CD415AC801}|Entities\\Entities.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BEAD052-EB07-4E32-8C18-63CD415AC801}|Entities\\Entities.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\data\\migrations\\20260219064455_softdeleteerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|solutionrelative:data\\migrations\\20260219064455_softdeleteerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\ofisuruntakip.webapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E94FB6-C4EF-46B0-80F8-F29C58586D74}|OfisUrunTakip.WebApi\\OfisUrunTakip.WebApi.csproj|solutionrelative:ofisuruntakip.webapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BEAD052-EB07-4E32-8C18-63CD415AC801}|Entities\\Entities.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BEAD052-EB07-4E32-8C18-63CD415AC801}|Entities\\Entities.csproj|solutionrelative:entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|c:\\users\\merkez\\source\\repos\\ofisuruntakip\\ofisuruntakpuygbackend\\data\\migrations\\20260219072957_decimalcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BA468E-F601-489C-82E2-2612F79229F8}|Data\\Data.csproj|solutionrelative:data\\migrations\\20260219072957_decimalcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Program.cs",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAASwIAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T11:25:16.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\appsettings.json",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T11:32:37.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T11:32:36.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T10:31:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockTransactionListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionListDto.cs",
+              "RelativeDocumentMoniker": "DTO\\StockTransactionDTOs\\StockTransactionListDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionListDto.cs",
+              "RelativeToolTip": "DTO\\StockTransactionDTOs\\StockTransactionListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:39:08.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StockTransactionAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionAddDto.cs",
+              "RelativeDocumentMoniker": "DTO\\StockTransactionDTOs\\StockTransactionAddDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionAddDto.cs",
+              "RelativeToolTip": "DTO\\StockTransactionDTOs\\StockTransactionAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:38:47.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:01:41.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductListDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductListDto.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductDTOs\\ProductListDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductListDto.cs",
+              "RelativeToolTip": "DTO\\ProductDTOs\\ProductListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:39:42.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\ApiContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApiContext.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\ApiContext.cs",
+              "RelativeToolTip": "Data\\ApiContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:40:35.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockTransactionUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\StockTransactionDTOs\\StockTransactionUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\StockTransactionDTOs\\StockTransactionUpdateDto.cs",
+              "RelativeToolTip": "DTO\\StockTransactionDTOs\\StockTransactionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:39:18.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockTransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\StockTransactionsController.cs",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Controllers\\StockTransactionsController.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\StockTransactionsController.cs",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Controllers\\StockTransactionsController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:43:17.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductAddDto.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductDTOs\\ProductAddDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductAddDto.cs",
+              "RelativeToolTip": "DTO\\ProductDTOs\\ProductAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:39:30.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Services\\EmailReportService.cs",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Services\\EmailReportService.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Services\\EmailReportService.cs",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Services\\EmailReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:36:14.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductDTOs\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\DTO\\ProductDTOs\\ProductUpdateDto.cs",
+              "RelativeToolTip": "DTO\\ProductDTOs\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:39:55.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260219072957_decimalColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\Migrations\\20260219072957_decimalColumn.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260219072957_decimalColumn.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\Migrations\\20260219072957_decimalColumn.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260219072957_decimalColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:29:57.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:26:34.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260219064455_softDeleteError.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\Migrations\\20260219064455_softDeleteError.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260219064455_softDeleteError.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Data\\Migrations\\20260219064455_softDeleteError.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260219064455_softDeleteError.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:44:55.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "OfisUrunTakip.WebApi\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\OfisUrunTakip.WebApi\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "OfisUrunTakip.WebApi\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:08:14.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Merkez\\source\\repos\\OfisUrunTakip\\OfisUrunTakpUygBackend\\Entities\\Supplier.cs",
+              "RelativeToolTip": "Entities\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:08:08.522Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

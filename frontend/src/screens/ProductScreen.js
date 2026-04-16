@@ -1,13 +1,15 @@
 import React,{useState,useEffect} from 'react';
 import { StyleSheet ,View,ScrollView , Alert ,ActivityIndicator} from 'react-native';
-import{List,Card ,Badge,Button,FAB, Text,Provider} from 'react-native_paper';
-import api from './api/axios';
-import { ImageBackground } from 'react-native/types_generated/index';
+import{List,Card ,Badge,Button,FAB, Text,Provider} from 'react-native-paper';
+import api from '../services/api';
+import AddProductModal from '../components/AddProductModal';
 
 const ProductScreen=()=>{
     const [products,setProducts]=useState([]);
     const [loading ,setLoading] = useState(true);
     const [filter,setFilter] = useState('all');
+   
+    const [showAdd, setShowAdd] = useState(false);
 
     useEffect(()=>{
         listProducts();
@@ -15,7 +17,7 @@ const ProductScreen=()=>{
 
     const  listProducts=async()=>{
         try{
-          //  setLoading(true);
+            setLoading(false);
             const res=await api.get("/api/products");
             setProducts(res.data);
         }
@@ -55,7 +57,11 @@ const ProductScreen=()=>{
 
     };
     return(
-        <Provider>
+        <Provider theme={{
+    colors: {
+      primary: '#A1BC98',
+    },
+  }}>
             <View style={styles.container}>
                 <View style={styles.topContainer}>
                     <Button
@@ -72,7 +78,7 @@ const ProductScreen=()=>{
                 </View>
           
             { loading ? (
-                <ActivityIndicator size="large" color="#92af71" style={{flex:1}}/>
+                <ActivityIndicator size="large" color="#92af71" style={{flex:1}}/>//yükleniyor simgesi
             ) :(
                 <ScrollView style={styles.scrollContainer}>
                     {products.map((item)=>(
@@ -88,7 +94,7 @@ const ProductScreen=()=>{
                                         <View style={styles.details}>
                                             <View style={styles.row}>
                                                 <Text style={styles.label}>Kategori</Text>
-                                                <Text style={syyles.value}>{item.categori ||'Belirtilmemiş'} </Text>
+                                                <Text style={styles.value}>{item.categoryName ||'Belirtilmemiş'} </Text>
 
                                             </View>
                                             <View style={styles.row}>
@@ -115,8 +121,14 @@ const ProductScreen=()=>{
             <FAB
                     icon="plus"
                     style={styles.fab}
-                    onPress={() => {  }}
-                />
+                    onPress={() => setShowAdd(true)} 
+/>
+
+            <AddProductModal 
+              visible={showAdd} 
+              onDismiss={() => setShowAdd(false)} 
+              onRefresh={() => listProducts()} 
+             />
               </View>
         </Provider>
     );
@@ -137,7 +149,7 @@ const styles = StyleSheet.create({
     },
     scrollContainer: { padding: 10 },
     card: { marginBottom: 10, elevation: 2 },
-    details: { padding: 12, gap: 10, backgroundColor: '#f9f9f9' },
+    details: { padding: 12, gap: 10, backgroundColor: '#e8e9e8' },
     row: { flexDirection: 'row', justifyContent: 'space-between' },
     label: { color: '#666', fontSize: 14 },
     value: { fontWeight: 'bold', fontSize: 15 },
@@ -150,12 +162,13 @@ const styles = StyleSheet.create({
     button: {
         width: '48%',
         marginBottom: 8,
+        backgroundColor:'#af9986'
     },
     fab: {
         position: 'absolute',
         margin: 20,
         right: 10, 
-        bottom: 20,
+        bottom: 35,
         backgroundColor: '#92af71'
     },
 });
