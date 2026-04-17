@@ -97,7 +97,7 @@ const LoginScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#cfe0bb', // arka plan
+    backgroundColor: '#cfd3ca', // arka plan
   },
   scrollContainer: {
     flexGrow: 1,
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     minHeight: 100,
   },
   loginCard: {
-    backgroundColor:'#cfe0bb',
+    backgroundColor:'#c0caca',
     padding: 20,
     alignItems: 'center',
     width: '100%',
@@ -128,9 +128,9 @@ const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
   },
-  input: {
+  input: {                                                                                                                                                                                                                                                                                                                                 
     width: '100%',
-    backgroundColor: '#cfe0bb', // Arka planla aynı olsun
+    backgroundColor: '#cfd3ca', // Arka planla aynı olsun
     marginBottom: 20,
     fontSize: 16,
   },
@@ -159,5 +159,5 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
 });
-
+ 
 export default LoginScreen;

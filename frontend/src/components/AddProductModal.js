@@ -1,6 +1,6 @@
 import React ,{useState,useEffect} from 'react';
 import { StyleSheet,View ,ScrollView ,Alert} from 'react-native';
-import { Modal,Portal, TextInput,Button, Text,SegmentedButtons ,HelperText} from 'react-native-paper';
+import { Modal,Portal, TextInput,Button, Text,IconButton,SegmentedButtons ,HelperText} from 'react-native-paper';
 //portal:modalı herseyın ustunde gorunmes ıcın
 //segmentedButtons: radıo button gıbı tek secım
 //helperınput :ınputun altındakı kucuk rehber 
@@ -11,7 +11,7 @@ const AddProductModal=({visible,onDismiss,onRefresh})=>{
     const [addFrom, setAddFrom]=useState({
         name:"",
         categoryId:null,
-        reorderLevel:0,
+        reorderLevel:"",
         unitOfMeasure:""
 
     });
@@ -71,6 +71,7 @@ const AddProductModal=({visible,onDismiss,onRefresh})=>{
             <Modal visible={visible} onDismiss={handleClose} contentContainerStyle={styles.modal}>
                 <ScrollView showsVerticalScrollIndicator={false}>
                     <Text style={styles.title}>Yeni Ürün Ekle</Text>
+                     {/* <IconButton icon="close" onPress={onDismiss} /> */}
                     <Text style={styles.label}>Ürün Adı</Text>
                     <TextInput
                     label="Ürün Adı"

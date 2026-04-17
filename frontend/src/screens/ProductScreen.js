@@ -3,7 +3,8 @@ import { StyleSheet ,View,ScrollView , Alert ,ActivityIndicator} from 'react-nat
 import{List,Card ,Badge,Button,FAB, Text,Provider} from 'react-native-paper';
 import api from '../services/api';
 import AddProductModal from '../components/AddProductModal';
-
+import StockActionModal from '../components/StockActionModal';
+import EditProductModal from '../components/EditProductModal';
 const ProductScreen=()=>{
     const [products,setProducts]=useState([]);
     const [loading ,setLoading] = useState(true);
@@ -11,6 +12,22 @@ const ProductScreen=()=>{
    
     const [showAdd, setShowAdd] = useState(false);
 
+    // State'leri ekle
+const [stockModalVisible, setStockModalVisible] = useState(false);
+const [actionType, setActionType] = useState(1); // 1: Artır, -1: Azalt
+const [selectedProduct, setSelectedProduct] = useState(null);
+
+const [editModalVisible, setEditModalVisible] = useState(false);
+
+const handleEditPress = (product) => {
+    setSelectedProduct(product);
+    setEditModalVisible(true);
+};
+const openStockModal = (product, type) => {
+    setSelectedProduct(product);
+    setActionType(type);
+    setStockModalVisible(true);
+};
     useEffect(()=>{
         listProducts();
     },[]);
@@ -106,10 +123,11 @@ const ProductScreen=()=>{
                                             <Text style={styles.value}>{item.reorderLevel}</Text>
                                         </View>
                                         <View style={styles.actionButtons}>
-                                            <Button icon="pencil" mode="contained" onPress={() => {}} style={styles.button}>Düzenle</Button>
-                                            <Button icon="trash-can" mode="contained" onPress={() => deleteProduct(item.id)} style={styles.button}>Sil</Button>
-                                            <Button icon="plus" mode="contained" onPress={()=>{}} style={styles.button}>Stok </Button>
-                                            <Button icon="minus" mode="contained" onPress={() => {}} style={styles.button}>Stok </Button>
+                                           
+                                            {/* <Button icon="trash-can" mode="contained" onPress={() => deleteProduct(item.id)} style={styles.button}>Sil</Button> */}
+                                            <Button icon="plus" mode="contained" onPress={()=>openStockModal(item, 1)} style={styles.button}>Stok </Button>
+                                            <Button icon="minus" mode="contained" onPress={() => openStockModal(item, -1)} style={styles.button}>Stok </Button>
+                                            <Button icon="pencil" mode="contained" onPress={() => handleEditPress(item)} style={styles.button}>Düzenle</Button>
                                         </View>
 
                                         </View>
@@ -129,7 +147,20 @@ const ProductScreen=()=>{
               onDismiss={() => setShowAdd(false)} 
               onRefresh={() => listProducts()} 
              />
+             <StockActionModal 
+    visible={stockModalVisible}
+    onDismiss={() => setStockModalVisible(false)}
+    onRefresh={listProducts}
+    selectedProduct={selectedProduct}
+    actionType={actionType}
+/>
               </View>
+              <EditProductModal 
+    visible={editModalVisible}
+    onDismiss={() => setEditModalVisible(false)}
+    onRefresh={listProducts}
+    product={selectedProduct}
+/>
         </Provider>
     );
 } ;
@@ -155,13 +186,13 @@ const styles = StyleSheet.create({
     value: { fontWeight: 'bold', fontSize: 15 },
     actionButtons: {
         flexDirection: 'row',
-        flexWrap: 'wrap',
+       flexWrap: 'wrap',
         justifyContent: 'space-between',
         marginTop: 10
     },
     button: {
-        width: '48%',
-        marginBottom: 8,
+        width: '38%',
+        marginBottom: 5,
         backgroundColor:'#af9986'
     },
     fab: {

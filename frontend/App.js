@@ -1,10 +1,10 @@
 import { Provider as PaperProvider } from 'react-native-paper';
 import React from 'react';
 
-import { TouchableOpacity, Text } from 'react-native';
+import { TouchableOpacity, Text,View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createDrawerNavigator,DrawerItemList ,DrawerItem, DrawerContentScrollView} from '@react-navigation/drawer';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import LoginScreen from './src/screens/LoginScreen';
@@ -22,6 +22,37 @@ import EmailNotificationSentScreen from './src/screens/EmailNotificationSentScre
 const stack = createStackNavigator();
 const Drawer= createDrawerNavigator();
 
+//agac yapısını yapısını sayfalar ve alt kısmı ckıs butonu
+    function CustomDrawerContent(props) {
+  return (
+    <View style={{ flex: 1, }}>
+      
+      <DrawerContentScrollView {...props} 
+      >
+        <DrawerItemList {...props} />
+      </DrawerContentScrollView>
+
+     
+      <View
+        style={{
+          paddingBottom: 50,
+          borderTopWidth: 1,
+          borderColor: '#ccc',
+       
+        }}
+      >
+        <DrawerItem
+          label="Çıkış Yap"
+          labelStyle={{ color: 'red', fontWeight: 'bold' }}
+          icon={({ color, size }) => (
+            <Icon name="logout" color={color} size={size} />
+          )}
+          onPress={() => props.navigation.replace("Login")}
+        />
+      </View>
+    </View>
+  );
+}
 const Hamburger = ({ navigation }) => (
   <TouchableOpacity 
     onPress={() => navigation.openDrawer()}
@@ -40,7 +71,9 @@ const Hamburger = ({ navigation }) => (
 
  function MyDrawer(){
   return(
-    <Drawer.Navigator screenOptions={{drawerStyle: {
+    <Drawer.Navigator
+    drawerContent={(props) => <CustomDrawerContent {...props} />}
+     screenOptions={{drawerStyle: {
       backgroundColor: '#d6d6dd', 
       width: 250,
     },
@@ -61,7 +94,8 @@ const Hamburger = ({ navigation }) => (
     headerStyle: {
       backgroundColor: '#5b8168',},
     
-  }}
+  }} 
+  
 >
   <Drawer.Screen 
   name="Ana Sayfa" 
@@ -133,6 +167,8 @@ const Hamburger = ({ navigation }) => (
     ),
     headerLeft: () =><Hamburger navigation={navigation} />,
   })} />
+  
+       
         
       
 
