@@ -74,25 +74,26 @@ const Hamburger = ({ navigation }) => (
     <Drawer.Navigator
     drawerContent={(props) => <CustomDrawerContent {...props} />}
      screenOptions={{drawerStyle: {
-      backgroundColor: '#d6d6dd', 
+      backgroundColor: '#f5f5e8', 
       width: 250,
     },
     // Menüdeki yazıların 
     drawerLabelStyle: {
       fontWeight: 'bold',
       fontSize: 16,
+      color:"#080808"
     },
     // Seçili olanın stili
-    drawerActiveTintColor: '#5b8168', 
-    drawerActiveBackgroundColor: '#e8f5e9', // eçiliyken arka plan
+    drawerActiveTintColor: '#0a0a0a', 
+    drawerActiveBackgroundColor: '#bbaaa1', // eçiliyken arka plan
     // Seçili olmayanların 
-    drawerInactiveTintColor: '#788596',
+    drawerInactiveTintColor: '#AABAAE',
     
    
     headerShown: true,
    headerTintColor: '#faf8f8', 
     headerStyle: {
-      backgroundColor: '#5b8168',},
+      backgroundColor: '#A1ABA2',},
     
   }} 
   
@@ -180,6 +181,7 @@ const Hamburger = ({ navigation }) => (
  export default function App()
 {
   return(
+    <PaperProvider>
     <NavigationContainer>
       {/* ilk açılan sayfa */}
       <stack.Navigator initialRouteName="Login"> 
@@ -197,6 +199,7 @@ const Hamburger = ({ navigation }) => (
       
       </stack.Navigator>
     </NavigationContainer>
+    </PaperProvider>
   )
 };
 

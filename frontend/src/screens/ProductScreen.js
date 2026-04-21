@@ -12,9 +12,9 @@ const ProductScreen=()=>{
    
     const [showAdd, setShowAdd] = useState(false);
 
-    // State'leri ekle
+    
 const [stockModalVisible, setStockModalVisible] = useState(false);
-const [actionType, setActionType] = useState(1); // 1: Artır, -1: Azalt
+const [actionType, setActionType] = useState(1); // 1 artır -1 azalt
 const [selectedProduct, setSelectedProduct] = useState(null);
 
 const [editModalVisible, setEditModalVisible] = useState(false);
