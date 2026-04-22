@@ -19,7 +19,7 @@ const CategoryModal = ({ visible, onDismiss, onRefresh, category }) => {
         if (!name.trim()) {
             //trim bastakı ve sondakı boslugu sıler
             //ve bosluk olur js de bosluk false olur 
-            //unlemle bunu false edıp parantezın ıcıne gırer
+            //unlemle bunu true edıp parantezın ıcıne gırer
             alert("Lütfen kategori adı girin.");
             return;
         }
