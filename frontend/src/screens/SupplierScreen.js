@@ -8,7 +8,7 @@ const SupplierScreen= ()=>{
   const [suppliers,setSuppliers]=useState([]);
   const [loading,setLoading]=useState(false);
   const [expandedId,setExpandedId]=useState(null);
-  const [modalVisible,setModalVisible]=useState(false);
+  const [modalVisible,setModalVisible]=useState(false); 
   const [selectedSupplier,setSelectedSupplier]=useState(null);
 
   useEffect (()=>{
