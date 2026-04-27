@@ -50,7 +50,7 @@ const UserScreen = () => {
     <Card.Content>
       <View style={styles.cardHeader}>
         <View style={styles.titleGroup}>
-          <IconButton icon="account" size={24} iconColor="#fff"/>
+          <IconButton icon="account" size={24} iconColor="#696464"/>
           <View>
             <Text variant="titleMedium" style={styles.usersName}>{item.name}</Text>
             <Text variant="bodySmall" > ID:{item.id}</Text>

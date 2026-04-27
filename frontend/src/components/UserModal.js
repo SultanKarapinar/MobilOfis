@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import {StyleSheet,ScrollView,View,Alert} from 'react-native';
-import {Modal,Portal,TextInput,Button,Text,IconButton} from 'react-native-paper';
+import {Modal,Portal,TextInput,Button,Text,IconButton,HelperText} from 'react-native-paper';
 
 const UserModal=({visible,onDismiss,OnRefresh,user})=>{
     const [form,setForm]=useState({
@@ -35,7 +35,7 @@ const UserModal=({visible,onDismiss,OnRefresh,user})=>{
             Alert.alert("Kullanıcı eklendi.");
         }
         OnRefresh();
-        onDismis();
+        onDismiss();
     }catch(error){
         Alert.alert("Bir hata oluştu.");
     }finally{
@@ -71,10 +71,13 @@ const UserModal=({visible,onDismiss,OnRefresh,user})=>{
             style={styles.input}/>
             <TextInput
             label="Şifre"
-            value={form.password}
-            onChangeText={text=>setForm ({...form,password:text})}
+            value={"********" }
+            editable={false}//yazılmasını sadece goruntulensın
             mode="outlined"
             style={styles.input}/>
+            <HelperText type="info">
+            Şifre güvenlik gereği bu ekrandan değiştirilemez.
+            </HelperText>//altta yazı yazmak ıcın
             <Button
             mode="contained"
             onPress={handleSave}
@@ -106,12 +109,12 @@ const styles=StyleSheet.create({
     },
     input:{
         marginBottom:12, 
-        backgroundColor:"#c7dbe6"
+        backgroundColor:"#f7ece7"
     },
     button:{
         marginTop:10,
         paddingVertical:5,
-        backgroundColor:"#6ca6c7"
+        backgroundColor:"#e7b79f"
     }
 });
 export default UserModal;
