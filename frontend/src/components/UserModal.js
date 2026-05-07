@@ -46,7 +46,7 @@ const UserModal=({visible,onDismiss,OnRefresh,user})=>{
     <Portal>
     <Modal visible={visible} onDismiss={onDismiss} contentContainerStyle={styles.container}>
         <View style={styles.header}>
-            <Text style={styles.title}>{user ? "Kullanıcıyı Düzenle":"Yeni Tedarikçi"} </Text>
+            <Text style={styles.title}>{user ? "Kullanıcıyı Düzenle":"Yeni Kullanıcı"} </Text>
             <IconButton icon ="close" onPress={onDismiss}/>
         </View>
         <ScrollView>
@@ -77,7 +77,8 @@ const UserModal=({visible,onDismiss,OnRefresh,user})=>{
             style={styles.input}/>
             <HelperText type="info">
             Şifre güvenlik gereği bu ekrandan değiştirilemez.
-            </HelperText>//altta yazı yazmak ıcın
+            </HelperText>
+            
             <Button
             mode="contained"
             onPress={handleSave}

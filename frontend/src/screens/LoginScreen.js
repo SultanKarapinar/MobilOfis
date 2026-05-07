@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect , useContext} from 'react';
 import { 
   View, StyleSheet, KeyboardAvoidingView, Platform, ScrollView, 
   Dimensions, TouchableOpacity, Alert, Modal 
@@ -6,9 +6,11 @@ import {
 import { TextInput, Button, Text, Surface, HelperText } from 'react-native-paper';
 import { jwtDecode } from "jwt-decode";
 import api from '../services/api';
+import { AuthContext } from '../context/AuthContext';
+import {setToken as saveToken } from '../services/tokenService';
 
 const LoginScreen = ({ navigation }) => {
-
+const { login } = useContext(AuthContext);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [secureTextEntry, setSecureTextEntry] = useState(true);
@@ -73,12 +75,14 @@ const LoginScreen = ({ navigation }) => {
       const token = response.data.token;
 
       const decoded = jwtDecode(token);
-      const userObj = {
-        id: decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"] || decoded.sub,
-        name: decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"] || username,
-        role: decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] || "Kullanıcı"
-      };
+    const userObj = {
+  id: decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"] || decoded.sub,
+  name: decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"] || username,
+  role: decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] || "Kullanıcı"
+};
 
+login(userObj, token);
+saveToken(token);
       setLoading(false);
 
       navigation.navigate('Main');
@@ -235,22 +239,76 @@ const LoginScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#cfd3ca' },
-  scrollContainer: { flexGrow: 1, justifyContent: 'center', padding: 20 },
-  loginCard: { backgroundColor: '#c0caca', padding: 30, borderRadius: 15, alignItems: 'center' },
-  header: { marginBottom: 40, alignItems: 'center' },
-  logotext: { fontSize: 24, fontWeight: 'bold', letterSpacing: 1 },
-  minText: { fontSize: 14, color: '#555' },
-  form: { width: '100%' },
-  input: { marginBottom: 15, backgroundColor: 'transparent' },
-  loginButton: { marginTop: 10, borderRadius: 5 },
-  linkText: { textAlign: 'center', color: '#333', fontWeight: 'bold' },
+  container: {
+     flex: 1, 
+     backgroundColor: '#cfd3ca'
+     },
+  scrollContainer: { 
+    flexGrow: 1, 
+    justifyContent: 'center',
+     padding: 20
+     },
+  loginCard: {
+     backgroundColor: '#c0caca',
+      padding: 30,
+       borderRadius: 15,
+        alignItems: 'center'
+       },
+  header: {
+     marginBottom: 40, 
+     alignItems: 'center' 
+    },
+  logotext: {
+     fontSize: 24,
+      fontWeight: 'bold', 
+      letterSpacing: 1 
+    },
+  minText: { 
+    fontSize: 14, 
+    color: '#555'
+   },
+  form: { 
+    width: '100%'
+   },
+  input: { 
+    marginBottom: 15, 
+    backgroundColor: 'transparent'
+   },
+  loginButton: { 
+    marginTop: 10, 
+    borderRadius: 5 
+  },
+  linkText: { 
+    textAlign: 'center', 
+    color: '#333',
+     fontWeight: 'bold' 
+    },
   // Modal Stilleri
-  modalOverlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'center', padding: 20 },
-  modalContent: { padding: 25, borderRadius: 10, backgroundColor: '#fff' },
-  modalTitle: { fontSize: 20, fontWeight: 'bold', marginBottom: 15, textAlign: 'center' },
-  modalInput: { marginBottom: 10 },
-  closeBtn: { alignSelf: 'flex-end', padding: 5 }
+
+  modalOverlay: { 
+    flex: 1,
+     backgroundColor: 'rgba(0,0,0,0.5)',
+      justifyContent: 'center', 
+      padding: 20 
+    },
+  modalContent: {
+     padding: 25, 
+     borderRadius: 10, 
+     backgroundColor: '#fff'
+     },
+  modalTitle: {
+     fontSize: 20, 
+     fontWeight: 'bold', 
+     marginBottom: 15,
+      textAlign: 'center'
+     },
+  modalInput: { 
+    marginBottom: 10 
+  },
+  closeBtn: { 
+    alignSelf: 'flex-end',
+     padding: 5 
+    }
 });
 
 export default LoginScreen;

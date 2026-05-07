@@ -60,6 +60,7 @@ const AddProductModal=({visible,onDismiss,onRefresh})=>{
                 Alert.alert("Ürün Eklenirken Bir Hata Oluştu.");
             }
         }
+        console.log(token);
     };
      const handleClose=()=>
      {

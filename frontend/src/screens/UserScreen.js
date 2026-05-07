@@ -85,7 +85,7 @@ const UserScreen = () => {
              <List.Item
             title="Şifre"
             description={"********" &&
-              "Şifre güvenlik gereği bu ekrandan değiştirilemez."
+              <Text>"Şifre güvenlik gereği bu ekrandan değiştirilemez."</Text>
             }
             left={props => <List.Icon{...props} icon="file-document-outline"/>}
             />

@@ -16,14 +16,17 @@ import UserScreen from './src/screens/UserScreen';
 import StockTransactionScreen from './src/screens/StockTransactionScreen';
 import EmailNotificationSettingScreen from './src/screens/EmailNotificationSettingScreen';
 import EmailNotificationSentScreen from './src/screens/EmailNotificationSentScreen';
-
-
+import {AuthProvider} from './src/context/AuthContext';
+import { useContext } from 'react';
+import { AuthContext } from './src/context/AuthContext';
+import { clearToken } from './src/services/tokenService';
 
 const stack = createStackNavigator();
 const Drawer= createDrawerNavigator();
 
 //agac yapısını yapısını sayfalar ve alt kısmı ckıs butonu
     function CustomDrawerContent(props) {
+      const { logout } = useContext(AuthContext);
   return (
     <View style={{ flex: 1, }}>
       
@@ -47,10 +50,15 @@ const Drawer= createDrawerNavigator();
           icon={({ color, size }) => (
             <Icon name="logout" color={color} size={size} />
           )}
-          onPress={() => props.navigation.replace("Login")}
+         onPress={() => {
+
+  clearToken();
+
+  props.navigation.replace("Login");
+}}
         />
       </View>
-    </View>
+    </View> 
   );
 }
 const Hamburger = ({ navigation }) => (
@@ -182,6 +190,7 @@ const Hamburger = ({ navigation }) => (
 {
   return(
     <PaperProvider>
+      <AuthProvider>
     <NavigationContainer>
       {/* ilk açılan sayfa */}
       <stack.Navigator initialRouteName="Login"> 
@@ -199,6 +208,7 @@ const Hamburger = ({ navigation }) => (
       
       </stack.Navigator>
     </NavigationContainer>
+    </AuthProvider>
     </PaperProvider>
   )
 };
