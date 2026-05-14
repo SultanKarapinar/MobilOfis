@@ -10,7 +10,7 @@ const ProductScreen=()=>{
     const [loading ,setLoading] = useState(true);
     const [filter,setFilter] = useState('all');
    
-    const [showAdd, setShowAdd] = useState(false);
+   const [showAdd, setShowAdd] = useState(false);
 
     
 const [stockModalVisible, setStockModalVisible] = useState(false);

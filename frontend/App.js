@@ -16,6 +16,7 @@ import UserScreen from './src/screens/UserScreen';
 import StockTransactionScreen from './src/screens/StockTransactionScreen';
 import EmailNotificationSettingScreen from './src/screens/EmailNotificationSettingScreen';
 import EmailNotificationSentScreen from './src/screens/EmailNotificationSentScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
 import {AuthProvider} from './src/context/AuthContext';
 import { useContext } from 'react';
 import { AuthContext } from './src/context/AuthContext';
@@ -174,8 +175,18 @@ const Hamburger = ({ navigation }) => (
     drawerIcon: ({ color, size }) => (
       <Icon name="account-group-outline" color={color} size={size} />
     ),
-    headerLeft: () =><Hamburger navigation={navigation} />,
+    headerLeft: () =><Hamburger navigation={navigation} />
   })} />
+
+     <Drawer.Screen name="Profil" component={ProfileScreen}
+       options={({ navigation }) => ({ 
+    title: 'Profil Sayfam ',
+    drawerIcon: ({ color, size }) => (
+      <Icon name="account-group-outline" color={color} size={size} />
+    ),
+    headerLeft: () =><Hamburger navigation={navigation} />
+  })} />
+  
   
        
         
