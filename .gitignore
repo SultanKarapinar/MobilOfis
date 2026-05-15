@@ -56,3 +56,15 @@ ios/build/
 *.log
 *.tmp
 *.swp
+
+# Keystore
+*.keystore
+*.jks
+**/debug.keystore
+*.keystore
+*.jks
+# Gradle secrets
+android/gradle.properties
+
+# Env
+.env
