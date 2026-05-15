@@ -1,155 +1,116 @@
 # 📱 Ofis Ürün ve Stok Takip Sistemi (Mobil Uygulama)
 
-**Ofis Ürün ve Stok Takip Sistemi Mobil Uygulaması**, ofislerde kullanılan ürünlerin stok durumunu, maliyet analizlerini ve stok hareketlerini her an, her yerden yönetebilmek amacıyla geliştirilmiş modern bir mobil çözümdür.
+Ofis Ürün ve Stok Takip Sistemi Mobil Uygulaması; ofislerde kullanılan ürünlerin stok durumunu, maliyet analizlerini ve stok hareketlerini her an, her yerden yönetebilmek amacıyla ortak eğitim programı kapsamında geliştirilmiş bir mobil uygulamadır.
 
-Bu proje, mevcut **ASP.NET Core Web API backend mimarisi** üzerine inşa edilmiş olup, saha ve ofis ortamında stok yönetimini tamamen mobil hale getirerek operasyonel hız ve kullanıcı deneyimini (UX) artırmayı hedefler.
-
-Mobil uygulama, **React Native CLI** kullanılarak geliştirilmiştir ve web tabanlı sistemin mobil genişletilmiş versiyonudur.
+Bu proje, mevcut ASP.NET Core Web API backend yapısını temel alarak, saha içinde veya ofis ortamında stok süreçlerini tamamen mobilize etmek, operasyonel hızı ve taşınabilir kullanıcı deneyimini (UX) artırmak amacıyla React Native CLI kullanılarak geliştirilmiştir.
 
 ---
 
 ## 🎥 Demo Video
-> 📌 Mobil uygulama tanıtım videosu buraya eklenecektir.
+(Mobil Uygulama Tanıtım Videosu Buraya)
 
 ---
 
 ## 📲 Uygulamayı Test Edin
 
-Uygulamayı cihazınızda hızlıca çalıştırmak için aşağıdaki QR kodu kullanabilirsiniz:
-
-> 📌 QR Code alanı eklenecek
+Uygulamayı mobil cihazınızda hızlıca çalıştırmak için aşağıdaki QR kodu okutabilirsiniz:
 
 ---
 
-## 🚀 Projenin Amacı
+## 🚀 Projenin Amacı ve Mobil Avantajları
 
-Bu projenin temel amacı, web tabanlı merkezi envanter yönetim sistemini mobil ortama taşıyarak **mekândan bağımsız, gerçek zamanlı stok kontrolü** sağlamaktır.
+Projenin temel amacı, web panelindeki merkezi envanter yönetimini cebe taşıyarak masa bağımsız bir kontrol mekanizması oluşturmaktır. Mobil uygulama ile sağlanan çözümler:
 
-### Sağlanan temel avantajlar:
-
-- 📦 **Mobil Ürün Yönetimi:** Ürünlerin anlık görüntülenmesi, filtrelenmesi ve aranması  
-- 🔄 **Hızlı Stok Giriş/Çıkış:** Depo veya ofis içinde anında stok hareketi oluşturma  
-- 💰 **Gerçek Zamanlı Maliyet Analizi:** Güncel fiyatlar üzerinden anlık maliyet hesaplama  
-- 🗺️ **Modern Navigasyon Yapısı:** Drawer (yan menü) tabanlı kullanıcı dostu arayüz  
-- 🔐 **Güvenli Mobil Giriş:** JWT tabanlı kimlik doğrulama ile güvenli oturum yönetimi  
+- 📦 **Mobil Ürün Yönetimi:** Saha içinde ürünlerin anlık listelenmesi ve aranması  
+- 🔄 **Hızlı Stok Giriş ve Çıkış Takibi:** Depo veya ofis içinde anında stok hareketi oluşturma  
+- 💰 **Hareket Halinde Maliyet Hesaplama:** Güncel alış fiyatları üzerinden anlık maliyet analizi  
+- 🗺️ **Gelişmiş Navigasyon:** Mobil uyumlu özel Drawer (Yan Menü) yapısı  
+- 🔐 **Mobil Güvenli Giriş:** JWT token entegrasyonu ile cihaz tabanlı güvenli oturum yönetimi  
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
 ### 📱 Mobil Frontend
-- React Native (CLI)
-- React Navigation (Drawer & Stack Navigation)
-- Axios / Fetch API
+- React Native (Native CLI)
+- React Navigation (Drawer & Stack)
 - Material Community Icons
 - Responsive UI Design
+- Axios / Fetch API
 
 ### 🧠 Backend & Veritabanı
-- ASP.NET Core Web API (C#)
-- Microsoft SQL Server
+- C# / ASP.NET Core Web API
 - JWT Authentication
-- Role-Based Access Control (RBAC)
+- Microsoft SQL Server
 
 ---
 
-## 🔐 Güvenlik ve Yetkilendirme
+## 🔐 Güvenlik ve Mobil Yetkilendirme
 
-### 🔑 JWT Token Yönetimi
-Kullanıcı giriş yaptıktan sonra API tarafından üretilen JWT token, cihaz üzerinde güvenli şekilde saklanır ve tüm API isteklerine otomatik olarak eklenir.
-
-### 👥 Rol Tabanlı Erişim (RBAC)
-Sistem aşağıdaki roller üzerinden yönetilir:
-
-- 👨‍💼 Admin
-- 📦 Stock Manager
-- 👁️ Viewer
-
-Her rol için mobil arayüz dinamik olarak şekillendirilir ve yetkisiz işlemler engellenir.
+### JWT Token Saklama
+Kullanıcı giriş yaptıktan sonra API'den dönen JWT Token, mobil cihaz üzerinde güvenli bir şekilde saklanır ve sonraki tüm API isteklerine (Header) otomatik olarak eklenir.
 
 ---
 
-## ✨ Mevcut Mobil Özellikler
-
-- 📦 **Merkezi Envanter Ekranı**
-  - Ürünlerin kart yapısında listelenmesi
-  - Kategori bazlı görüntüleme
-
-- 🔄 **Dinamik Stok İşlemleri**
-  - Ürün detayından giriş/çıkış işlemleri
-
-- 🔍 **Gelişmiş Arama & Filtreleme**
-  - Ürün adı ve kategoriye göre anlık filtreleme
-
-- 📱 **Drawer Navigation**
-  - Modern, kullanıcı dostu yan menü tasarımı
-
-- 🔐 **Güvenli Oturum Yönetimi**
-  - Token bazlı login sistemi
+### 🔑 Rol Tabanlı Erişim Kontrolü (RBAC)
+Giriş yapan kullanıcının rolüne göre (Admin, StockManager, Viewer) mobil arayüzdeki menüler ve işlem butonları dinamik olarak kısıtlanır veya yetkilendirilir.
 
 ---
 
-## 🧭 Gelecek Çalışmalar ve Yol Haritası
+## ✨ Tamamlanan Mobil Özellikler
 
-Bu proje, temel mobil stok yönetim altyapısı tamamlanmış bir **çekirdek sistem (MVP)** olarak geliştirilmiştir. Aşağıdaki modüller gelecekte geliştirilmek üzere planlanmıştır:
-
----
-
-### 📧 1. E-Posta ve Push Notification Sistemi
-
-**Mevcut Durum:**
-- Backend tarafında kritik stok (Reorder Level) için e-posta tetikleme sistemi hazırdır.
-
-**Geliştirme Hedefi:**
-- Firebase Cloud Messaging (FCM) entegrasyonu ile mobil cihazlara anlık bildirim gönderilmesi
-- Kritik stok uyarılarının push notification olarak iletilmesi
+- ✅ Merkezi Envanter Ekranı: Tüm ürünlerin kategorize edilerek kart yapısında listelenmesi  
+- ✅ Dinamik Stok Yönetimi: Ürün detay sayfalarından hızlı stok giriş/çıkış işlemleri  
+- ✅ Gelişmiş Arama & Filtreleme: Ürün adı ve kategoriye göre arama  
+- ✅ Özel Drawer Menü: Kullanıcı dostu ve responsive yan menü tasarımı  
 
 ---
 
-### 🔄 2. Gelişmiş Stok Yönetimi
+## 📌 Gelecek Çalışmalar ve Yol Haritası (Stajyer Arkadaşlarımın Dikkatine 🚀)
 
-**Mevcut Durum:**
-- Temel stok giriş/çıkış işlemleri aktif
+Ortak eğitim programı (staj) süremin sonuna gelmiş bulunmaktayım. Projenin mobil dönüşüm mimarisini kurup temel stok yönetim ekranlarını tamamladım. Projeyi benden sonra devralacak stajyer arkadaşların sistemi daha da geliştirmesi için aşağıdaki modüller planlanmıştır:
+
+---
+
+### 📧 1. E-Posta ve Anlık Bildirim (Push Notification) Sistemi
+
+**Mevcut Durum:**  
+Backend’de ReorderLevel (kritik stok) altına düşen ürünler için mail tetikleme altyapısı hazırdır.
+
+**Geliştirme Hedefi:**  
+Firebase Cloud Messaging (FCM) entegrasyonu ile kritik stok bildirimlerinin mobil cihazlara anlık push notification olarak gönderilmesi.
+
+---
+
+### 🔄 2. Detaylı Stok Yönetimi Geliştirmeleri
+
+**Mevcut Durum:**  
+Temel stok giriş/çıkış işlemleri çalışmaktadır.
 
 **Geliştirme Hedefi:**
 - Tedarikçi yönetimi
 - Kategori yönetimi
 - Excel import/export işlemleri
-- Mobil cihaz üzerinden dosya yönetimi
+- Mobil dosya indirme/yükleme desteği
 
 ---
 
-### 👤 3. Profil & Hesap Yönetimi
+### 👤 3. Profil ve Ayarlar Ekranı
+
+**Mevcut Durum:**  
+Kullanıcı bilgileri JWT üzerinden alınmaktadır.
 
 **Geliştirme Hedefi:**
-- Kullanıcı profil ekranı
+- Profil ekranı
 - Şifre değiştirme
 - Güvenli çıkış (Sign Out)
-- Kullanıcı bilgilerini düzenleme
+- Kullanıcı bilgilerinin güncellenmesi
 
 ---
 
-### 📸 4. Vizyoner Özellik: QR / Barkod Sistemi
+### 📸 4. Bonus: QR / Barkod Tarayıcı Entegrasyonu
 
-**Fikir:**
-- Kamera üzerinden ürün barkodu okutma
-- Direkt ürün detay sayfasına yönlendirme
-- Stok işlemlerini hızlandırma
+**Fikir:**  
+React Native kamera kütüphaneleri (react-native-camera / barcode scanner) kullanılarak ürün barkodlarının okutulması ve direkt ürün detayına yönlendirme yapılması.
 
-**Teknoloji Önerisi:**
-- react-native-camera
-- react-native-vision-camera
-- barcode scanner kütüphaneleri
-
----
-
-## 🏁 Sonuç
-
-Bu proje, masaüstü tabanlı stok yönetim sistemini mobil dünyaya taşıyarak **hız, erişilebilirlik ve operasyonel verimlilik** sağlamayı amaçlamaktadır.
-
-Geliştirilmeye açık modüler yapısı sayesinde hem eğitim hem de gerçek dünya kullanım senaryolarına uygundur.
-
----
-
-## 📌 Not
-
-Bu proje eğitim amaçlı geliştirilmiştir ve aktif olarak genişletilmeye devam etmektedir.
+Bu özellik sistemin hızını ve kullanıcı deneyimini ciddi şekilde artıracaktır.
