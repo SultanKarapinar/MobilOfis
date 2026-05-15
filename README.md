@@ -7,13 +7,13 @@ Bu proje, mevcut ASP.NET Core Web API backend yapısını temel alarak, saha iç
 ---
 
 ## 🎥 Demo Video
-(Mobil Uygulama Tanıtım Videosu Buraya)
+
 
 ---
 
 ## 📲 Uygulamayı Test Edin
 
-Uygulamayı mobil cihazınızda hızlıca çalıştırmak için aşağıdaki QR kodu okutabilirsiniz:
+
 
 ---
 
