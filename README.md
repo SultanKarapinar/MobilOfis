@@ -7,7 +7,7 @@ Bu proje, mevcut ASP.NET Core Web API backend yapısını temel alarak, saha iç
 ---
 
 ## 🎥 Demo Video
-
+https://youtube.com/shorts/0uoveQLmdP0?feature=share
 
 ---
 
