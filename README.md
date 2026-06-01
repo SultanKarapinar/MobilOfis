@@ -1,4 +1,4 @@
-<img width="450" height="450" alt="mobil_uyg" src="https://github.com/user-attachments/assets/8410ba73-8ee5-437d-9445-dbff32187c03" />
+
 # 📱 Ofis Ürün ve Stok Takip Sistemi (Mobil Uygulama)
 
 Ofis Ürün ve Stok Takip Sistemi Mobil Uygulaması; ofislerde kullanılan ürünlerin stok durumunu, maliyet analizlerini ve stok hareketlerini her an, her yerden yönetebilmek amacıyla ortak eğitim programı kapsamında geliştirilmiş bir mobil uygulamadır.
